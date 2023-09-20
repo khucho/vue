@@ -1,26 +1,25 @@
+<!-- <template>
+  <div class="container bg-light">
+    Bootstrap Install
+    <div class="row">
+      <div class="col-md-6 bg-primary">
+        Div1
+      </div>
+      <div class="col-md-6 bg-warning">
+        Div2
+      </div>
+    </div>
+  </div>
+</template> -->
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <MethodComponent></MethodComponent>
 </template>
-
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
+import MethodComponent from "./components/MethodComponent.vue";
+export default{
+  name:'App',
+  components:{
+    MethodComponent
   }
 }
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
